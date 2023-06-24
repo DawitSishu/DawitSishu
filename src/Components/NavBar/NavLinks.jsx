@@ -3,6 +3,7 @@ import { Button,MenuItem } from "@mui/material";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import {
+  AiOutlineMail,  
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -54,6 +55,19 @@ const NavLinks = () => {
                 }
               >
                 Projects
+              </Button>
+        </MenuItem>
+        <MenuItem>
+              <Button
+                sx={hoverStyle}
+                component={Link}
+                to="/contact"
+                color="inherit"
+                startIcon={
+                  <AiOutlineMail style={{ marginBottom: "2px" }} />
+                }
+              >
+                Contact
               </Button>
         </MenuItem>
         <MenuItem>

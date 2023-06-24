@@ -23,9 +23,6 @@ function ParticleBG() {
         },
         background: {
             size :convertLength,
-            color: {
-                value: "#000000",
-            },
         },
         fpsLimit: 120,
         interactivity: {
@@ -77,7 +74,7 @@ function ParticleBG() {
                 type: "star",
             },
             size: {
-                value: { min: 0.2, max: 1 },
+                value: { min: 1, max: 1.5 },
             },
         },
         // detectRetina: true,
