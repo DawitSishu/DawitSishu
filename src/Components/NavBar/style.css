@@ -14,13 +14,11 @@
 
   @media (max-width: 767px) {
     .navbar {
-      background-color: #181a27 !important;
+      background-color: #15161d !important;
     }
   }
  .nav-items {
   display: flex;
   justify-content: space-around;
  }
- .navbar-toggler {
-  display: none;
- }
+ 
