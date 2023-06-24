@@ -19,13 +19,13 @@ function App() {
         {
           path:'',
           element:<Home />
-        },
-        {
-          path: '*',
-          element: <NotFound />
         }
       ]
     },
+    {
+      path: '*',
+      element: <NotFound />
+    }
   ]);
 
 

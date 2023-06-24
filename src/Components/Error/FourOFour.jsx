@@ -2,13 +2,10 @@ import React from 'react'
 
 const FourOFour = () => {
   return (
-        <div id="error-page">
-        <h1>Oops!</h1>
-        <p>Sorry, an unexpected error has occurred.</p>
-        <p>
-            <i>The page you requested is ot found</i>
-        </p>
-        </div>
+    <div style={{color:'white'}}>
+      <h1>404 - Page Not Found</h1>
+      <p>The page you are looking for does not exist.</p>
+    </div>
   )
 }
 
