@@ -35,7 +35,11 @@ export default function Scene() {
         // scale={[0.14, 0.14, 0.14]}
         receiveShadow
       />
-      <OrbitControls />
+      <OrbitControls
+         enableZoom={false}
+         maxPolarAngle={Math.PI / 2}
+         minPolarAngle={Math.PI / 2}
+      />
     </>
   );
 }

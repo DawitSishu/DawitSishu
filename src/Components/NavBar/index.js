@@ -9,7 +9,8 @@ import {
   Switch,
   styled,
 } from "@mui/material";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from 'react-scroll';
+// import { Link, Outlet } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Close as CloseIcon } from "@mui/icons-material";
@@ -21,9 +22,7 @@ import {
 } from "react-icons/ai";
 import logo from "../../Assets/Images/logo.png";
 import "./style.css";
-import Particle from "../Particles";
 import NavLinks from "./NavLinks";
-import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import { Brightness4, Brightness7 } from "@mui/icons-material";
 
 
@@ -39,53 +38,7 @@ const CustomSwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-const lightTheme = createTheme({
-  palette: {
-    mode: "light",
-    primary: {
-      main: "#008080",
-    },
-    components: {
-      MuiCssBaseline: {
-        styleOverrides: {
-          body: {
-            backgroundColor: "#008080", 
-          },
-        },
-      },
-    },
-    breakpoints: {
-      values: {
-        xs: 0,
-        sm: 768, // Custom breakpoint value for 'sm'
-        md: 960,
-        lg: 1280,
-        xl: 1920,
-      },
-    },
-  },
-});
-
-
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-    primary: {
-      main: "#008080",
-    },
-  },
-  breakpoints: {
-    values: {
-      xs: 0,
-      sm: 768, // Custom breakpoint value for 'sm'
-      md: 960,
-      lg: 1280,
-      xl: 1920,
-    },
-  },
-});
-
-function NavBar() {
+function NavBar({modeHandler}) {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
@@ -93,6 +46,7 @@ function NavBar() {
 
   const handleDarkModeToggle = () => {
     setDarkMode(!darkMode);
+    modeHandler();
   };
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -113,9 +67,6 @@ function NavBar() {
   };
   // rgba(128, 128, 128, 0.6)
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <CssBaseline />
-        <Particle />
         <AppBar
           position="fixed"
           className={navColour ? "sticky" : "navbar"}
@@ -125,7 +76,8 @@ function NavBar() {
             color:`${darkMode ? 'white' : 'rgba(51, 51, 51, 1)'}`,
             boxShadow: '0px 3px 3px 0px rgba(9, 5, 29, 0.171)',
             elevation: 5,
-            
+            width:'100vw'
+            // zIndex:22,
           }}
         >
           <Toolbar
@@ -136,9 +88,15 @@ function NavBar() {
               },
             }}
           >
+          <Link
+            activeClass="active"
+            to="hero"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             <IconButton
-              component={Link}
-              to="/"
               edge="start"
               color="inherit"
               aria-label="home"
@@ -146,37 +104,58 @@ function NavBar() {
             >
                <img src={logo} alt="brand" height='70' />
             </IconButton>
+          </Link>
             <Container
               sx={{
-                marginLeft: "35%",
+                marginLeft: "15%",
                 "@media (max-width: 767px)": {
                   display: "none",
                 },
               }}
             >
               <nav className="nav-items">
+              <Link
+                  activeClass="active"
+                  to="hero"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                 <Button
                   sx={hoverStyle}
-                  component={Link}
-                  to="/"
                   color="inherit"
                   startIcon={<AiOutlineHome style={{ marginBottom: "2px" }} />}
                 >
                   Home
                 </Button>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                 <Button
                   sx={hoverStyle}
-                  component={Link}
-                  to="/about"
                   color="inherit"
                   startIcon={<AiOutlineUser style={{ marginBottom: "2px" }} />}
                 >
                   About
                 </Button>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                 <Button
                   sx={hoverStyle}
-                  component={Link}
-                  to="/project"
                   color="inherit"
                   startIcon={
                     <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />
@@ -184,15 +163,23 @@ function NavBar() {
                 >
                   Projects
                 </Button>
+                </Link>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
                 <Button
                   sx={hoverStyle}
-                  component={Link}
-                  to="/contact"
                   color="inherit"
                   startIcon={<AiOutlineMail style={{ marginBottom: "2px" }} />}
                 >
                   Contact
                 </Button>
+                </Link>
                 <Button
                   sx={hoverStyle}
                   href="https://github.com/soumyajit4419/Portfolio"
@@ -201,7 +188,7 @@ function NavBar() {
                   color="inherit"
                   startIcon={<CgGitFork style={{ fontSize: "1.2em" }} />}
                 >
-                  Fork & Star
+                  Fork 
                 </Button>
               </nav>
             </Container>
@@ -253,8 +240,6 @@ function NavBar() {
             </Menu>
           </Toolbar>
         </AppBar>
-        <Outlet />
-    </ThemeProvider>
   );
 }
 

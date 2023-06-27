@@ -25,8 +25,8 @@ const NavLinks = () => {
         <MenuItem>
             <Button 
                 sx={hoverStyle}
-                component={Link}
-                to="/"
+                // component={Link}
+                // to="/"
                 color="inherit"
                 startIcon={<AiOutlineHome style={{ marginBottom: "2px" }} />}
               >
@@ -36,8 +36,8 @@ const NavLinks = () => {
          <MenuItem>
               <Button
                 sx={hoverStyle}
-                component={Link}
-                to="/about"
+                // component={Link}
+                // to="/about"
                 color="inherit"
                 startIcon={<AiOutlineUser style={{ marginBottom: "2px" }} />}
               >
@@ -47,8 +47,8 @@ const NavLinks = () => {
         <MenuItem>
               <Button
                 sx={hoverStyle}
-                component={Link}
-                to="/project"
+                // component={Link}
+                // to="/project"
                 color="inherit"
                 startIcon={
                   <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />
@@ -60,7 +60,7 @@ const NavLinks = () => {
         <MenuItem>
               <Button
                 sx={hoverStyle}
-                component={Link}
+                // component={Link}
                 to="/contact"
                 color="inherit"
                 startIcon={

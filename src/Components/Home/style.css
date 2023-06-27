@@ -1,14 +1,14 @@
-.main{
+/* .main{
     margin-top: 80px !important;
-}
+} */
 .model-container{
-    margin-top: 0 !important;
+    margin-top: 80px !important;
     width: 50vw !important;
     height: 70vh !important;
 }
 .content{
     width: 50vw !important;
-    height: 50vh !important;
+    height: 100vh !important;
 }
 .main-text{
     height: 100% !important;
