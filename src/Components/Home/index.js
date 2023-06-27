@@ -10,7 +10,7 @@ import Type from './Type';
 
 const index = () => {
   return (
-    <Container style={{ height:'100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <Container style={{ height:'100vh', justifyContent: 'center', alignItems: 'center' }}>
       <Grid container className='main' sx={{height:'100%'}}>
         <Grid className='content' item xs={12} sm={6}  >
           <Container className='main-text' sx={{
