@@ -54,6 +54,15 @@ const lightTheme = createTheme({
         },
       },
     },
+    breakpoints: {
+      values: {
+        xs: 0,
+        sm: 768, // Custom breakpoint value for 'sm'
+        md: 960,
+        lg: 1280,
+        xl: 1920,
+      },
+    },
   },
 });
 
@@ -63,6 +72,15 @@ const darkTheme = createTheme({
     mode: "dark",
     primary: {
       main: "#008080",
+    },
+  },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 768, // Custom breakpoint value for 'sm'
+      md: 960,
+      lg: 1280,
+      xl: 1920,
     },
   },
 });
@@ -76,7 +94,6 @@ function NavBar() {
   const handleDarkModeToggle = () => {
     setDarkMode(!darkMode);
   };
-
   function scrollHandler() {
     if (window.scrollY >= 20) {
       updateNavbar(true);
@@ -94,14 +111,13 @@ function NavBar() {
       elevation: "0",
     },
   };
-
+  // rgba(128, 128, 128, 0.6)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <CssBaseline />
-      <div style={{ backgroundColor :  darkMode ? null : 'rgba(128, 128, 128, 0.6)', height:'100vh' }}>
         <Particle />
         <AppBar
-          position="fixed"
+          // position="fixed"
           className={navColour ? "sticky" : "navbar"}
           sx={{
             boxShadow: "none",
@@ -237,10 +253,9 @@ function NavBar() {
             </Menu>
           </Toolbar>
         </AppBar>
-        <div style={{marginTop:'75px'}}>
+        {/* <div style={{marginTop:'75px'}}> */}
           <Outlet />
-        </div>  
-      </div>
+        {/* </div>   */}
     </ThemeProvider>
   );
 }
