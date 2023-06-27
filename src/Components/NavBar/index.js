@@ -19,7 +19,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import logo from "../../Assets/Images/logo192.png";
+import logo from "../../Assets/Images/logo.png";
 import "./style.css";
 import Particle from "../Particles";
 import NavLinks from "./NavLinks";
@@ -136,7 +136,10 @@ function NavBar() {
               },
             }}
           >
-            <IconButton
+            <Link to="/">
+              <img src={logo} alt="brand" height='75' />
+            </Link>
+            {/* <IconButton
               component={Link}
               to="/"
               edge="start"
@@ -145,7 +148,7 @@ function NavBar() {
               onClick={() => updateExpanded(false)}
             >
               <img src={logo} alt="brand" height="30" />
-            </IconButton>
+            </IconButton> */}
             <Container
               sx={{
                 marginLeft: "35%",
