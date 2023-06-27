@@ -7,6 +7,7 @@ import ErrorPage from './Components/Error';
 import NotFound from './Components/Error/FourOFour';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
+import Contact from './Components/Contact';
 
 function App() {
 
@@ -17,8 +18,12 @@ function App() {
       errorElement: <ErrorPage />,
       children:[
         {
-          path:'',
+          path:'/',
           element:<Home />
+        },
+        {
+          path:'/contact',
+          element:<Contact />
         }
       ]
     },

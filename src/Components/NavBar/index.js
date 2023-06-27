@@ -117,7 +117,7 @@ function NavBar() {
       <CssBaseline />
         <Particle />
         <AppBar
-          // position="fixed"
+          position="fixed"
           className={navColour ? "sticky" : "navbar"}
           sx={{
             boxShadow: "none",
@@ -136,10 +136,7 @@ function NavBar() {
               },
             }}
           >
-            <Link to="/">
-              <img src={logo} alt="brand" height='75' />
-            </Link>
-            {/* <IconButton
+            <IconButton
               component={Link}
               to="/"
               edge="start"
@@ -147,8 +144,8 @@ function NavBar() {
               aria-label="home"
               onClick={() => updateExpanded(false)}
             >
-              <img src={logo} alt="brand" height="30" />
-            </IconButton> */}
+               <img src={logo} alt="brand" height='70' />
+            </IconButton>
             <Container
               sx={{
                 marginLeft: "35%",
@@ -256,9 +253,7 @@ function NavBar() {
             </Menu>
           </Toolbar>
         </AppBar>
-        {/* <div style={{marginTop:'75px'}}> */}
-          <Outlet />
-        {/* </div>   */}
+        <Outlet />
     </ThemeProvider>
   );
 }
