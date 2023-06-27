@@ -1,9 +1,11 @@
-
 .main{
-    margin-top: 75px;
+    margin-top: 75px !important;
 }
 .model-container{
-    margin-top: 0;
-    width: 50vw;
-    height: 70vh;
+    margin-top: 0 !important;
+    width: 50vw !important;
+    height: 70vh !important;
+}
+.content{
+    width: 50vw !important;
 }
