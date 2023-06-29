@@ -10,6 +10,7 @@ import NavBar from './Components/NavBar';
 import Contact from './Components/Contact';
 import Particle from './Components/Particles';
 import About from './Components/About';
+import Projects from './Components/Project';
 import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import {useState} from 'react';
 import { Element } from 'react-scroll';
@@ -73,6 +74,7 @@ function App() {
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <CssBaseline />
       <Particle />
+      <div>
       <NavBar  modeHandler = {handleDarkModeToggle}/>
       <Element name="hero">
         <Home />
@@ -80,9 +82,19 @@ function App() {
       <Element name="about">
         <About />
       </Element>
+      <Element name="projects">
+        <Projects />
+      </Element>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Element name="contact">
         <Contact />
       </Element>
+      </div>
     </ThemeProvider>
   );
 }

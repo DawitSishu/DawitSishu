@@ -1,11 +1,35 @@
 import React from 'react';
 import { Box, Typography,Grid,OutlinedInput,InputLabel,Button } from '@mui/material';
 import { AiOutlineSend } from 'react-icons/ai';
-
+import { useForm } from "react-hook-form";
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+    const { register, handleSubmit, formState: { errors } } = useForm();
+
+    const handleUserData =  async (data) => {
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!emailPattern.test(data.email)){
+            alert('Please provide a valid email!!');
+            return;
+        }
+        try {
+
+         const response = await emailjs.send("service_go8gr4u","template_iy26d4b",{
+            name: data.name,
+            email: data.email,
+            message: data.message,
+            },'sbZ4_ZBdtoGSG8K_K');
+            alert(response);
+        } catch (error) {
+         alert(error)
+      }
+    }
+
   return (
     <Box
+    component='form'
+    onSubmit={handleSubmit(handleUserData)}
         sx={{
             // position: 'relative'
             padding:3,
@@ -14,7 +38,7 @@ const ContactForm = () => {
             backgroundColor: 'transparent',
             // backgroundColor: 'rgba(0, 0, 0, 0.1)', // or 2555 make it white
             elevation:3,
-            boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+            boxShadow: '0 0 10px #008080',
             // display: 'flex',
             // flexDirection:'column',
             // alignItems: 'flex-start',
@@ -35,7 +59,13 @@ const ContactForm = () => {
                     fullWidth={true}
                     placeholder="what is your Name?"
                     id="Name"
+                    {...register('name', { required: "Name can't be empty" })}
                 />
+                {errors.name ? (
+                    <Typography color="error" variant="h7">
+                        {errors.name.message}
+                    </Typography>
+                ): null}
             </Grid>
             <Grid item xs={12}>
                 <InputLabel htmlFor="Email">
@@ -45,7 +75,13 @@ const ContactForm = () => {
                     fullWidth={true}
                     placeholder="what is your Email?"
                     id="Email"
+                    {...register('email', { required: "Email can't be empty" })}
                 />
+                {errors.email ? (
+                    <Typography color="error" variant="h7">
+                        {errors.email.message}
+                    </Typography>
+                ): null}
             </Grid>
             <Grid item xs={12}>
                 <InputLabel htmlFor="Message">
@@ -57,7 +93,13 @@ const ContactForm = () => {
                     id="Message"
                     multiline
                     rows={4}
+                    {...register('message', { required: "Message can't be empty" })}
                 />
+                {errors.message ? (
+                    <Typography color="error" variant="h7">
+                        {errors.message.message}
+                    </Typography>
+                ): null}
             </Grid>
         </Grid>
         <Button
@@ -65,6 +107,7 @@ const ContactForm = () => {
             variant="contained"
             color="primary"
             startIcon={<AiOutlineSend />}
+            type="submit"
         >
             Send
         </Button>
