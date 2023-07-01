@@ -72,12 +72,13 @@ function NavBar({modeHandler}) {
           className={navColour ? "sticky" : "navbar"}
           sx={{
             boxShadow: "none",
-            backgroundColor: "rgba(128, 128, 128, 0.4)",
+            backgroundColor:'transparent',
+            // backgroundColor: "rgba(128, 128, 128, 0.4)",
             color:`${darkMode ? 'white' : 'rgba(51, 51, 51, 1)'}`,
             boxShadow: '0px 3px 3px 0px rgba(9, 5, 29, 0.171)',
             elevation: 5,
             width:'100vw',
-            // zIndex:22,
+            zIndex:22,
           }}
         >
           <Toolbar
