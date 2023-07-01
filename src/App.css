@@ -1,3 +1,27 @@
-/* body{
-    background-color: black;
-} */
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:  rgb(0, 255, 242);
+    border-radius: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #008080;
+    border-radius: 12px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 255, 242);
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
