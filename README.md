@@ -12,7 +12,7 @@
 
 - 🌱 I’m currently learning **Flutter**
 
-- 👨‍💻 All of my projects are available at [https://dawitsishu.vercel.app/](https://dawitsishu.vercel.app/)
+- 👨‍💻 All of my projects are available at [my website](https://dawitsishu.vercel.app/)
 
 - 💬 Ask me about **react,nodejs**
 
