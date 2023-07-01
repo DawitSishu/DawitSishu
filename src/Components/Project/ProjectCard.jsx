@@ -46,15 +46,20 @@ function ProjectCard({imgPath,title,description,ghLink,demoLink}) {
             <GitHubIcon sx={{ marginRight: '0.5rem' }} />
                 GitHub
           </Button>
-            <Button
-              variant="contained"
-              href={demoLink}
-              target="_blank"
-              sx={{ marginLeft: '0.5rem' }}
-            >
-              <LanguageIcon sx={{ marginRight: '0.5rem' }} />
-              Demo
-            </Button>
+          {
+            demoLink ? (
+                  <Button
+                  variant="contained"
+                  href={demoLink}
+                  target="_blank"
+                  sx={{ marginLeft: '0.5rem' }}
+                  >
+                  <LanguageIcon sx={{ marginRight: '0.5rem' }} />
+                  Demo
+                </Button>
+            ) : null
+          }
+            
         </CardContent>
       </Tilt>
       </Card>

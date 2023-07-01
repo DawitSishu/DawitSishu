@@ -1,6 +1,9 @@
 import React from 'react'
 import ProjectCard from "./ProjectCard";
-import chatify from '../../Assets/Images/logo.png';
+import placeholder from '../../Assets/Images/logo.png';
+import bored from '../../Assets/Images/boredome.png';
+import code from '../../Assets/Images/code.png';
+import contact from '../../Assets/Images/contact.png';
 import { Container, Grid, Typography,Button } from '@mui/material';
 
 const index = () => {
@@ -20,44 +23,43 @@ const index = () => {
         <Grid item xs={12} sm={6} mb={5} >
                 <Grid container justifyContent="center">
                     <ProjectCard
-                            imgPath={chatify}
-                            title="Chatify"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
+                            imgPath={bored}
+                            title="Boredom Reliever App"
+                            description='The Boredom Reliever App is an application designed to alleviate boredom and provide entertainment through jokes, insults, quotes, and memes. It utilizes various APIs to fetch and display content for a fun and engaging user experience.'
+                            ghLink="https://github.com/DawitSishu/boredome-reliver"
+                            demoLink="https://boredome-reliver.web.app/"
                         />
                 </Grid>
         </Grid>
         <Grid item xs={12} sm={6} mb={5} >
                 <Grid container justifyContent="center">
                     <ProjectCard
-                            imgPath={chatify}
-                            title="Chatify"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
+                            imgPath={code}
+                            title="Code Discussion App"
+                            description="The Code Discussion App is a collaborative platform for developers to engage in real-time code discussions.With real-time messaging, secure authentication, and a user-friendly interface, it's the perfect place to learn and discuss code."
+                            ghLink="https://github.com/DawitSishu/code-discussion"
+                            demoLink="https://code-discussion.vercel.app/"
                         />
                 </Grid>
         </Grid>
         <Grid item xs={12} sm={6} mb={5} >
                 <Grid container justifyContent="center">
                     <ProjectCard
-                            imgPath={chatify}
-                            title="Chatify"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
+                            imgPath={contact}
+                            title="Contact Manager App"
+                            description="A modern and intuitive contact manager app developed with React.js and Material-UI. Seamlessly create, edit, and delete contacts, while also providing user account management and authentication. Stay organized and connected with this powerful React contact manager app."
+                            ghLink="https://github.com/DawitSishu/contact-manger-app-client"
+                            demoLink="https://contact-manager-app-8223f.web.app/"
                         />
                 </Grid>
         </Grid>
         <Grid item xs={12} sm={6} mb={5} >
                 <Grid container justifyContent="center">
                     <ProjectCard
-                            imgPath={chatify}
-                            title="Chatify"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
+                            imgPath={placeholder}
+                            title="Event Planner App"
+                            description="The Event Planner App is a powerful mobile application built using React Native that allows users to effortlessly manage their events. With features such as sign up, log in, and event tracking, this app provides a seamless experience for organizing and keeping track of all your important events."
+                            ghLink="https://github.com/DawitSishu/EventPlanner"
                         />
                 </Grid>
         </Grid>
