@@ -1,7 +1,7 @@
 import React from "react";
 import { Button,MenuItem } from "@mui/material";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { Link } from "react-scroll";
+import { CgGitFork } from "react-icons/cg"; 
 import {
   AiOutlineMail,  
   AiOutlineHome,
@@ -23,52 +23,78 @@ const NavLinks = () => {
   return (
     <>
         <MenuItem>
-            <Button 
-                sx={hoverStyle}
-                // component={Link}
-                // to="/"
-                color="inherit"
-                startIcon={<AiOutlineHome style={{ marginBottom: "2px" }} />}
-              >
-                Home
-              </Button>
+           <Link
+                  activeClass="active"
+                  to="hero"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                <Button
+                  sx={hoverStyle}
+                  color="inherit"
+                  startIcon={<AiOutlineHome style={{ marginBottom: "2px" }} />}
+                >
+                  Home
+                </Button>
+                </Link>
          </MenuItem>
          <MenuItem>
-              <Button
-                sx={hoverStyle}
-                // component={Link}
-                // to="/about"
-                color="inherit"
-                startIcon={<AiOutlineUser style={{ marginBottom: "2px" }} />}
-              >
-                About
-              </Button>
+            <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                <Button
+                  sx={hoverStyle}
+                  color="inherit"
+                  startIcon={<AiOutlineUser style={{ marginBottom: "2px" }} />}
+                >
+                  About
+                </Button>
+                </Link>
         </MenuItem>
         <MenuItem>
-              <Button
-                sx={hoverStyle}
-                // component={Link}
-                // to="/project"
-                color="inherit"
-                startIcon={
-                  <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />
-                }
-              >
-                Projects
-              </Button>
+            <Link
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                <Button
+                  sx={hoverStyle}
+                  color="inherit"
+                  startIcon={
+                    <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />
+                  }
+                >
+                  Projects
+                </Button>
+                </Link>
         </MenuItem>
         <MenuItem>
-              <Button
-                sx={hoverStyle}
-                // component={Link}
-                to="/contact"
-                color="inherit"
-                startIcon={
-                  <AiOutlineMail style={{ marginBottom: "2px" }} />
-                }
-              >
-                Contact
-              </Button>
+            <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                <Button
+                  sx={hoverStyle}
+                  color="inherit"
+                  startIcon={<AiOutlineMail style={{ marginBottom: "2px" }} />}
+                >
+                  Contact
+                </Button>
+                </Link>
         </MenuItem>
         <MenuItem>
               <Button
@@ -79,7 +105,7 @@ const NavLinks = () => {
                 color="inherit"
                 startIcon={<CgGitFork style={{ fontSize: "1.2em" }} />}
               >
-                Fork & Star
+                Fork 
               </Button>
         </MenuItem>
     </>
