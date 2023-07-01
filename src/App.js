@@ -14,6 +14,7 @@ import Projects from './Components/Project';
 import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import {useState} from 'react';
 import { Element } from 'react-scroll';
+import Footer from './Components/Footer';
 
 
 
@@ -23,15 +24,6 @@ const lightTheme = createTheme({
     mode: "light",
     primary: {
       main: "#008080",
-    },
-    components: {
-      MuiCssBaseline: {
-        styleOverrides: {
-          body: {
-            backgroundColor: "#008080", 
-          },
-        },
-      },
     },
     breakpoints: {
       values: {
@@ -95,6 +87,7 @@ function App() {
         <Contact />
       </Element>
       </div>
+      {/* <Footer /> */}
     </ThemeProvider>
   );
 }

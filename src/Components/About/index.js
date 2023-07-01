@@ -25,11 +25,7 @@ const index = () => {
                learned the importance of compromise and communication, as I 
                often found myself mediating between my older and younger siblings. 
                This experience has shaped me into a patient and understanding individual, 
-               qualities that are essential in the field of development. As a developer, I 
-               thrive on problem-solving and finding innovative solutions to complex issues. 
-               Whether it's coding a new application or debugging existing software, I am 
-               constantly seeking ways to improve efficiency and the user experience. 
-               My passion for development extends beyond just writing code; I also enjoy 
+               qualities that are essential in the field of development.I enjoy 
                collaborating with others and learning from their perspectives. This collaborative 
                mindset allows me to approach projects with an open mind and embrace different ideas. 
                In my free time, I like to <strong>play chess and watch football</strong>. I believe that through 

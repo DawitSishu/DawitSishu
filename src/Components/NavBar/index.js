@@ -76,7 +76,7 @@ function NavBar({modeHandler}) {
             color:`${darkMode ? 'white' : 'rgba(51, 51, 51, 1)'}`,
             boxShadow: '0px 3px 3px 0px rgba(9, 5, 29, 0.171)',
             elevation: 5,
-            width:'100vw'
+            width:'100vw',
             // zIndex:22,
           }}
         >

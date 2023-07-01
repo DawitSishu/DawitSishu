@@ -1,0 +1,9 @@
+
+
+@media (max-width: 767px): {
+    .canvas{
+            width: 662px !important;
+            height: 610px !important;   
+            background-color: red;
+    }
+},
