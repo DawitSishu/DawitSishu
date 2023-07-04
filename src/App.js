@@ -1,10 +1,4 @@
 import './App.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import ErrorPage from './Components/Error';
-import NotFound from './Components/Error/FourOFour';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
 import Contact from './Components/Contact';
@@ -14,7 +8,6 @@ import Projects from './Components/Project';
 import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
 import {useState} from 'react';
 import { Element } from 'react-scroll';
-import Footer from './Components/Footer';
 
 
 

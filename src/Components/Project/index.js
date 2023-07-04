@@ -4,7 +4,7 @@ import placeholder from '../../Assets/Images/logo.png';
 import bored from '../../Assets/Images/boredome.png';
 import code from '../../Assets/Images/code.png';
 import contact from '../../Assets/Images/contact.png';
-import { Container, Grid, Typography,Button } from '@mui/material';
+import { Container, Grid, Typography } from '@mui/material';
 
 const index = () => {
   return (

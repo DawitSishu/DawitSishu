@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Suspense} from 'react'
 import { Canvas, } from '@react-three/fiber';
 import './style.css';
 import CoderModel from './Coder';
@@ -6,6 +6,8 @@ import { Container, Grid, Typography,Button } from '@mui/material';
 import { Link } from "react-scroll";
 import { AiOutlineMail } from "react-icons/ai";
 import Type from './Type';
+import { OrbitControls,Preload } from '@react-three/drei';
+import Loader from '../Loader/Loader';
 
 
 const index = () => {
@@ -58,8 +60,22 @@ const index = () => {
               display: "none"
             },
           }}item sm={6} >
-          <Canvas camera={{ position: [2, -2, 2], fov: 45 }} shadows >
+          <Canvas 
+            camera={{ 
+              position: [2, -2, 2], 
+              fov: 45 }} 
+            shadows 
+            gl={{ preserveDrawingBuffer: true }}
+            frameloop='demand'
+            >
+            <Suspense fallback={<Loader />}>
+           <OrbitControls
+              enableZoom={false}
+              autoRotate
+            />
             <CoderModel  />
+            <Preload all />
+            </Suspense>
           </Canvas>
         </Grid>
       </Grid>

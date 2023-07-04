@@ -3,7 +3,6 @@ import { useFrame, useLoader,useThree } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import model from '../../Assets/models/coder.glb';
 import { useEffect } from 'react';
-import { OrbitControls } from '@react-three/drei';
 
 export default function Scene() {
   const { camera } = useThree();
@@ -34,11 +33,6 @@ export default function Scene() {
         // rotation={[0.8, -3.5 * Math.PI, -0.9 * Math.PI]} 
         // scale={[0.14, 0.14, 0.14]}
         receiveShadow
-      />
-      <OrbitControls
-         enableZoom={false}
-         maxPolarAngle={Math.PI / 2}
-         minPolarAngle={Math.PI / 2}
       />
     </>
   );
