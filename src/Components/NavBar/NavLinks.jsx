@@ -99,7 +99,7 @@ const NavLinks = () => {
         <MenuItem>
               <Button
                 sx={hoverStyle}
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/DawitSishu/DawitSishu"
                 target="_blank"
                 rel="noreferrer"
                 color="inherit"
