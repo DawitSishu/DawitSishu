@@ -74,7 +74,7 @@ function ParticleBG() {
                 type: "star",
             },
             size: {
-                value: { min: 1, max: 1.5 },
+                value: { min: 0.5, max: 1 },
             },
         },
         // detectRetina: true,

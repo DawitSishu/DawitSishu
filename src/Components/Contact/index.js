@@ -24,7 +24,7 @@ const StyledCanvas = styled(Canvas)`
 
 const index = () => {
   return (
-    <>
+    <div>
     <Container style={{height:'100vh', justifyContent: 'center', alignItems: 'center', }}>
       <Grid container spacing={2}>
         <Grid  item xs={12} sm={6}>
@@ -60,7 +60,7 @@ const index = () => {
       <br/>
      <Footer />
      </Container>
-    </>
+    </div>
   )
 }
 
