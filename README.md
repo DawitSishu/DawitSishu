@@ -1,46 +1,145 @@
-<h1 align="center">Hi 👋, I'm Dawit.</h1>
-
 <div align="center">
-  <img src ="./bg.gif" width="900px" height="350px"/>
-  
+
+# Dawit A. Sishu
+
+### AI-Enabled Full-Stack Developer
+**📍 Addis Ababa, Ethiopia**
+
 </div>
 
- <br/>
- 
-## 👨🏻‍💻 About Me: 
-<img  src="./person.gif" height="290px" align="right" />
+---
 
-- 🌱 I’m currently learning **Flutter**
+<div align="center">
+  
+**Building secure, cloud-native SaaS platforms powered by AI**
 
-- 👨‍💻 All of my projects are available at [my website](https://dawitsishu.vercel.app/)
+*Leveraging cutting-edge technologies to deliver reliable, scalable solutions with exceptional user experience*
 
-- 💬 Ask me about **react,nodejs**
+</div>
 
-- 📫 How to reach me **dawitshishu@gmail.com**
+## 🚀 About Me
 
-- ⚡ Fun fact **I'm pretty good at Chess.**
-<br/>
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/dawitsishu/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dawit sishu" height="30" width="40" /></a>
-<a href="https://instagram.com/devani._a" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="devani._a" height="30" width="40" /></a>
+I'm an AI-Enabled Full-Stack Developer from Addis Ababa, Ethiopia, specializing in building secure, cloud-native SaaS platforms powered by AI. I leverage AWS and GCP alongside React, Next.js, Node.js, and MongoDB to deliver reliable, scalable solutions.
+
+From AI-powered chatbots to serverless architectures, I create high-performance applications with a focus on security, SEO optimization, and exceptional user experience.
+
+**Ready to build something impactful? Let's connect.**
+
+---
+
+## 🛠️ Technical Expertise
+
+<div align="center">
+
+### Frontend Development
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="Next.js" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/svelte/svelte-original.svg" alt="Svelte" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
 </p>
-<br/>
 
-## 🛠️ Technologies and Tools I use:
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
- <br/>
+### Backend & Full-Stack
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="Express.js" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
+</p>
 
- ## 📊 My GitHub Data:
- <div align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=dawitsishu&show_icons=true&locale=en&layout=compact" alt="dawitsishu" />
-<br/>
-<br/>
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=dawitsishu&show_icons=true&locale=en" alt="dawitsishu" />
-<br/>
-<br/>
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dawitsishu&" alt="dawitsishu" />
-   
+### AI & Machine Learning
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="OpenAI" width="40" height="40"/>
+</p>
+
+### Cloud & DevOps
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="Firebase" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
+</p>
+
+</div>
+
+---
+
+## 💼 Featured Projects
+
+### 🏦 [Finance-IQ: Advanced FP&A Platform](https://www.finance-iq.ai/)
+**FP&A Platform with CFO AI & Custom Reporting**
+- Next-generation Financial Planning & Analysis platform with AI-powered forecasting
+- Built on NetSuite with real-time financial analytics and automated insights
+- **Role**: Full-Stack Developer, AI Solutions Architect
+
+### 🏖️ [The Villa List](https://thevillalist.com/)
+**Villa Marketplace**
+- Web application marketplace for luxury villas and retreats across Asia
+- **Role**: Cloud Infrastructure Tech Lead, Full-Stack Developer
+
+### 🏗️ [Custom CMS Platform](https://www.shoagency.com/home)
+**CMS-Style Platform**
+- Full-featured CMS with AI-powered content tools and advanced site builder
+- Built with React/Next.js and Node.js, featuring cloud deployment and SEO optimization
+- **Role**: Senior Full-Stack Developer
+
+### 🤖 [AI Companion](https://ai-companion-tau-six.vercel.app/)
+**Personalized AI Agents**
+- AI-powered digital companion with custom NLP models
+- Real-time data handling for seamless cross-platform experience
+- **Role**: Full-Stack Developer, AI/NLP Engineer, Product Architect
+
+### 🌍 [Mussulo Central](https://mussulocentral.com/)
+**Tourism & Information Website**
+- Multilingual tourism website for Mussulo, Angola's scenic peninsula
+- Full accessibility support and comprehensive local information
+- **Role**: Full Stack Developer, Web Accessibility Specialist
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dawitsishu&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawitsishu&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dawitsishu&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakLabel=C9D1D9" alt="GitHub Streak" />
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+**Let's build something amazing together**
+
+[![Email](https://img.shields.io/badge/Email-dawitshishu@gmail.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:dawitshishu@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-dawitsishu.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dawitsishu.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-dawitsishu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dawitsishu/)
+[![GitHub](https://img.shields.io/badge/GitHub-DawitSishu-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DawitSishu)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=dawitsishu&color=58A6FF&style=for-the-badge" alt="Profile Views" />
+</div>
+
+<div align="center">
+  
+*"Innovation is not about having all the answers, but about asking the right questions and building solutions that matter."*
+
+**Available for collaboration • Currently exploring new opportunities**
+
 </div>
 
 
