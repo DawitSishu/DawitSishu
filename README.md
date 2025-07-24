@@ -1,144 +1,156 @@
 <div align="center">
 
-# Dawit A. Sishu
+# 👋 Dawit A. Sishu
 
-### AI-Enabled Full-Stack Developer
-**📍 Addis Ababa, Ethiopia**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=940&lines=AI-Enabled+Full-Stack+Developer;Cloud+Solutions+Architect;Senior+Software+Engineer;Building+Next-Gen+SaaS+Platforms" alt="Typing SVG" />
 
-</div>
+### 🌍 **Addis Ababa, Ethiopia** | 🚀 **Senior AI-Enabled Developer**
 
----
-
-<div align="center">
-  
-**Building secure, cloud-native SaaS platforms powered by AI**
-
-*Leveraging cutting-edge technologies to deliver reliable, scalable solutions with exceptional user experience*
-
-</div>
-
-## 🚀 About Me
-
-I'm an AI-Enabled Full-Stack Developer from Addis Ababa, Ethiopia, specializing in building secure, cloud-native SaaS platforms powered by AI. I leverage AWS and GCP alongside React, Next.js, Node.js, and MongoDB to deliver reliable, scalable solutions.
-
-From AI-powered chatbots to serverless architectures, I create high-performance applications with a focus on security, SEO optimization, and exceptional user experience.
-
-**Ready to build something impactful? Let's connect.**
-
----
-
-## 🛠️ Technical Expertise
-
-<div align="center">
-
-### Frontend Development
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="Next.js" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/svelte/svelte-original.svg" alt="Svelte" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-</p>
-
-### Backend & Full-Stack
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="Express.js" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" height="40"/>
-</p>
-
-### AI & Machine Learning
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="40" height="40"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="OpenAI" width="40" height="40"/>
-</p>
-
-### Cloud & DevOps
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="Firebase" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
-</p>
-
-</div>
-
----
-
-## 💼 Featured Projects
-
-### 🏦 [Finance-IQ: Advanced FP&A Platform](https://www.finance-iq.ai/)
-**FP&A Platform with CFO AI & Custom Reporting**
-- Next-generation Financial Planning & Analysis platform with AI-powered forecasting
-- Built on NetSuite with real-time financial analytics and automated insights
-- **Role**: Full-Stack Developer, AI Solutions Architect
-
-### 🏖️ [The Villa List](https://thevillalist.com/)
-**Villa Marketplace**
-- Web application marketplace for luxury villas and retreats across Asia
-- **Role**: Cloud Infrastructure Tech Lead, Full-Stack Developer
-
-### 🏗️ [Custom CMS Platform](https://www.shoagency.com/home)
-**CMS-Style Platform**
-- Full-featured CMS with AI-powered content tools and advanced site builder
-- Built with React/Next.js and Node.js, featuring cloud deployment and SEO optimization
-- **Role**: Senior Full-Stack Developer
-
-### 🤖 [AI Companion](https://ai-companion-tau-six.vercel.app/)
-**Personalized AI Agents**
-- AI-powered digital companion with custom NLP models
-- Real-time data handling for seamless cross-platform experience
-- **Role**: Full-Stack Developer, AI/NLP Engineer, Product Architect
-
-### 🌍 [Mussulo Central](https://mussulocentral.com/)
-**Tourism & Information Website**
-- Multilingual tourism website for Mussulo, Angola's scenic peninsula
-- Full accessibility support and comprehensive local information
-- **Role**: Full Stack Developer, Web Accessibility Specialist
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dawitsishu&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawitsishu&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dawitsishu&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakLabel=C9D1D9" alt="GitHub Streak" />
-</div>
-
----
-
-## 🤝 Connect With Me
-
-<div align="center">
-
-**Let's build something amazing together**
-
-[![Email](https://img.shields.io/badge/Email-dawitshishu@gmail.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:dawitshishu@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-dawitsishu.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dawitsishu.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-dawitsishu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dawitsishu/)
-[![GitHub](https://img.shields.io/badge/GitHub-DawitSishu-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DawitSishu)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=dawitsishu&color=58A6FF&style=for-the-badge" alt="Profile Views" />
+
+## 💫 **About Me**
+
+<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320">
+
+🔭 **Building secure, cloud-native SaaS platforms powered by AI**  
+🌱 **Expertise in AWS, GCP, React, Next.js, Node.js & AI/ML**  
+💡 **Specializing in enterprise-grade scalable solutions**  
+🎯 **Focus on security, performance & exceptional UX**  
+⚡ **Passionate about AI innovation & cloud architecture**  
+🏆 **Available for senior-level opportunities**  
+
 </div>
 
 <div align="center">
-  
-*"Innovation is not about having all the answers, but about asking the right questions and building solutions that matter."*
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
+</div>
 
-**Available for collaboration • Currently exploring new opportunities**
+---
+
+## 🛠️ **Technical Arsenal**
+
+<div align="center">
+
+### 🎨 **Frontend Mastery**
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="50"><img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="50">
+<img src="https://user-images.githubusercontent.com/74038190/212280805-9bcadba4-0e83-4a4d-b47c-5d5fd7a7b48a.gif" width="50">
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385b8474eb.gif" width="50">
+
+```
+React • Next.js • Svelte • TypeScript • Tailwind CSS • Three.js • GSAP
+```
+
+### ⚙️ **Backend & Cloud Infrastructure**
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="50">
+<img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="50">
+<img src="https://user-images.githubusercontent.com/74038190/212281780-0afd4a22-1c21-4b2c-94a3-6d83637d13b2.gif" width="50">
+
+```
+Node.js • Express.js • MongoDB • PostgreSQL • AWS • GCP • Docker • Serverless
+```
+
+### 🤖 **AI & Machine Learning**
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="50">
+
+```
+Python • TensorFlow • OpenAI API • Claude API • NLP • Computer Vision • MLOps
+```
+
+</div>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+</div>
+
+---
+
+## 📊 **GitHub Analytics & Performance**
+
+<div align="center">
+
+### 🏆 **Overview Stats**
+<img src="https://github-readme-stats.vercel.app/api?username=dawitsishu&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&custom_title=Dawit's+GitHub+Stats" alt="GitHub Stats" />
+
+### 🔥 **Contribution Streak**
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dawitsishu&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakLabel=C9D1D9&dates=C9D1D9" alt="GitHub Streak" />
+
+### 💻 **Language Distribution**
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dawitsishu&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=10&hide=html,css" alt="Top Languages" />
+
+### 📈 **Contribution Graph**
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dawitsishu&theme=react-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="Contribution Graph" />
+
+### 🏅 **GitHub Trophies**
+<img src="https://github-profile-trophy.vercel.app/?username=dawitsishu&theme=discord&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" />
+
+### ⚡ **Profile Details**
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dawitsishu&theme=github_dark" alt="Profile Details" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dawitsishu&theme=github_dark" alt="Repos per Language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dawitsishu&theme=github_dark" alt="Most Commit Language" />
+
+</div>
+
+---
+
+## 🌐 **Professional Network**
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
+### 🤝 **Let's Connect & Collaborate**
+
+<a href="mailto:dawitshishu@gmail.com">
+<img src="https://img.shields.io/badge/Email-dawitshishu@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" alt="Email" />
+</a>
+
+<a href="http://dawit-sishu.vercel.app/" target="_blank">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&label=Portfolio&labelColor=000000" alt="Portfolio" />
+</a>
+
+<a href="https://www.linkedin.com/in/dawitsishu/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn&labelColor=0077B5" alt="LinkedIn" />
+</a>
+
+<a href="https://github.com/DawitSishu" target="_blank">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&label=GitHub&labelColor=181717" alt="GitHub" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## 💡 **Professional Philosophy**
+
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300">
+
+*"Innovation isn't just about writing code—it's about architecting solutions that transform ideas into scalable, intelligent systems that drive real-world impact."*
+
+---
+
+### 🎯 **Current Focus Areas**
+```
+🔹 AI-Powered Enterprise Solutions    🔹 Cloud-Native Architecture
+🔹 Serverless & Microservices        🔹 Performance Optimization  
+🔹 Security & Compliance             🔹 DevOps & CI/CD Automation
+```
+
+---
+
+<img src="https://komarev.com/ghpvc/?username=dawitsishu&color=58A6FF&style=for-the-badge&label=Profile+Views" alt="Profile Views" />
+
+**🚀 Open to Senior-Level Opportunities | 💼 Available for Consultation**
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
 
 </div>
 
