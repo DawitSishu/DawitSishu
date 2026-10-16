@@ -10,56 +10,68 @@
 
 </div>
 
-## From an unclear requirement to a dependable release.
+## I build it. Ship it. Keep it moving.
 
-I build and maintain SaaS products across user workflows, backend services, integrations, and cloud infrastructure. I help teams finish prototypes, resolve production issues, and keep delivering as their products grow.
+I take SaaS products from unfinished prototypes to production—and stay involved as they grow. My work spans **interfaces, APIs, integrations, databases, and cloud delivery**.
 
-My work includes healthcare referral systems, authenticated third-party integrations, deployment migrations, and ongoing application maintenance. I take responsibility for understanding the existing system, making tradeoffs explicit, and validating the changes I ship.
-
-## Production work, clearly owned
-
-Selected client engagements. These summaries describe my contributions within the products; client source code remains in its original repositories.
+## Selected engineering work
 
 ### Healthcare referral platform
+**Referral workflows. Secure access. Connected clinical systems.**
 
-**I develop and maintain backend services, integrations, and application workflows for an ongoing healthcare product.**
+I develop backend services, application workflows, and healthcare integrations across **FastAPI, PostgreSQL, Flutter, and Google Cloud**.
 
-- Built and improved FastAPI services backed by PostgreSQL and SQLAlchemy, including database migrations with Alembic.
-- Implemented authentication and permission-related changes, audit logging, and application security improvements.
-- Worked on referral workflows and role-based functionality across the backend and Flutter application.
-- Developed gateway and interoperability functionality involving FHIR, HL7, and SMART OAuth.
-- Worked on Google Cloud Run deployment, Terraform configuration, GitHub Actions delivery, and automated validation.
+<details>
+<summary><strong>Explore my contributions →</strong></summary>
 
-**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Flutter · Google Cloud · Terraform
+- **Backend & data:** FastAPI services, SQLAlchemy models, and Alembic migrations.
+- **Access & accountability:** authentication changes, permissions, audit logging, and security improvements.
+- **Clinical workflows:** referral functionality and role-based application features.
+- **Interoperability:** gateway functionality involving FHIR, HL7, and SMART OAuth.
+- **Delivery:** Cloud Run, Terraform, GitHub Actions, and automated validation.
 
-### SaaS integrations & advertising workflows
+</details>
 
-**I implemented Meta API integrations connecting external accounts and advertising data to SaaS workflows.**
+---
 
-- Built authorization flows and permission checks.
-- Implemented token refresh workers to support continued account access.
-- Integrated advertising analytics and brand–creator partnership functionality.
+### Meta-connected SaaS
+**From account authorization to usable advertising data.**
 
-**Stack:** Node.js · Next.js · Meta APIs · Background workers
+I implemented authorization flows, permission checks, token refresh workers, and advertising analytics for a **Node.js / Next.js** product.
 
-### Application migration & ongoing maintenance
+<details>
+<summary><strong>Explore my contributions →</strong></summary>
 
-**I completed a Vercel-to-VPS migration engagement and continued supporting the same client through additional contracts.**
+- Integrated Meta APIs into SaaS account workflows.
+- Implemented background token refresh and permission checks.
+- Built advertising analytics and brand–creator partnership functionality.
 
-- Configured Docker deployment, Nginx, TLS, and CI/CD.
-- Followed the migration with AWS troubleshooting and technical documentation engagements.
-- Worked across application and infrastructure concerns to support continued delivery.
+</details>
 
-**Stack:** Docker · Nginx · CI/CD · VPS · AWS
+---
 
-## How I take ownership
+### Deployment migration
+**A new hosting environment. Continued product support.**
 
-| Principle | What it means in practice |
-| :--- | :--- |
-| **Understand before estimating** | Review the implementation, dependencies, constraints, and unknowns. |
-| **Make tradeoffs visible** | Agree on scope, acceptance criteria, and the reason for an approach. |
-| **Release with evidence** | Validate changes and communicate completed work, test results, blockers, and next steps. |
-| **Own what comes next** | Document decisions, maintain the system, and improve it as requirements evolve. |
+I completed a **Vercel-to-VPS migration** using Docker, Nginx, TLS, and CI/CD, followed by additional AWS troubleshooting and documentation engagements with the same client.
+
+<details>
+<summary><strong>Explore my contributions →</strong></summary>
+
+- Configured container-based application deployment.
+- Set up Nginx and TLS configuration.
+- Worked on automated delivery and subsequent infrastructure troubleshooting.
+- Documented technical work to support continued maintenance.
+
+</details>
+
+<sub>Selected client engagements. These describe my contributions within the products; client source code remains in its original repositories.</sub>
+
+## How I work
+
+**Understand the system → agree on scope → validate changes → ship → improve.**
+
+Clear tradeoffs. Focused releases. Useful documentation. Updates that tell you what’s done, what’s tested, and what needs attention.
 
 ## A focused engineering stack
 
