@@ -17,6 +17,8 @@ I take SaaS products from unfinished prototypes to production—and stay involve
 ## Selected engineering work
 
 ### Healthcare referral platform
+
+<img src="./assets/healthcare-work.svg" width="100%" alt="Healthcare illustration: referral workflows, APIs and data, interoperability" />
 **Referral workflows. Secure access. Connected clinical systems.**
 
 I develop backend services, application workflows, and healthcare integrations across **FastAPI, PostgreSQL, Flutter, and Google Cloud**.
@@ -35,6 +37,8 @@ I develop backend services, application workflows, and healthcare integrations a
 ---
 
 ### Meta-connected SaaS
+
+<img src="./assets/integrations-work.svg" width="100%" alt="Integration illustration: authorization, token lifecycle, advertising data" />
 **From account authorization to usable advertising data.**
 
 I implemented authorization flows, permission checks, token refresh workers, and advertising analytics for a **Node.js / Next.js** product.
@@ -51,6 +55,8 @@ I implemented authorization flows, permission checks, token refresh workers, and
 ---
 
 ### Deployment migration
+
+<img src="./assets/cloud-work.svg" width="100%" alt="Cloud delivery illustration: containerization, Nginx and TLS, automated delivery" />
 **A new hosting environment. Continued product support.**
 
 I completed a **Vercel-to-VPS migration** using Docker, Nginx, TLS, and CI/CD, followed by additional AWS troubleshooting and documentation engagements with the same client.
